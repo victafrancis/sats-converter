@@ -12,7 +12,10 @@ The **Currency to SATS Converter** is a simple and responsive web app that allow
 - **Responsive design**: Optimized for mobile and desktop viewing, with a logo that scales depending on screen size.
 - **Dark mode**: Default dark theme for better readability, especially in low-light environments.
 
-## Techn Stack
+## Tech Stack
 - **React**: Front-end framework used for building the UI.
 - **CoinGecko API**: Real-time cryptocurrency prices API.
 - **GitHub Pages**: Hosting for the app.
+
+## Commands
+To deploy to github pages run: `npm run deploy`
