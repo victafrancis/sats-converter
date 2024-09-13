@@ -1,5 +1,8 @@
 # Currency to SATS Converter
 
+## Live App
+https://victafrancis.github.io/sats-converter/
+
 ## Description
 The **Currency to SATS Converter** is a simple and responsive web app that allows users to convert local currencies including Canadian Dollars (CAD), US Dollars (USD), Japanese Yen (JPY), and Philippine Pesos (PHP) to Satoshis (SATS), the smallest unit of Bitcoin. The app fetches real-time conversion rates from the CoinGecko API and supports dark mode for a more comfortable user experience.
 
@@ -13,7 +16,3 @@ The **Currency to SATS Converter** is a simple and responsive web app that allow
 - **React**: Front-end framework used for building the UI.
 - **CoinGecko API**: Real-time cryptocurrency prices API.
 - **GitHub Pages**: Hosting for the app.
-
-## Live App
-You can view the live app here:  
-[CAD to SATS Converter](https://victafrancis.github.io/sats-converter/)
