@@ -1,28 +1,87 @@
+/* Dark mode styles */
+body {
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
-  margin-top: 50px;
-  padding: 0 20px; /* Ensure padding for smaller screens */
+  padding: 20px;
+}
+
+/* Style for the logo */
+.app-logo {
+  width: 150px; /* Default size */
+  height: auto;
+  margin-bottom: 20px; /* Adds space between the logo and the header */
+}
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #ffffff;
 }
 
 input {
   margin: 10px;
   padding: 10px;
   font-size: 16px;
-  width: 80%; /* Make input take up most of the screen on mobile */
-  max-width: 300px; /* Limit maximum width on larger screens */
+  background-color: #1e1e1e; /* Dark background for input */
+  color: #ffffff; /* Light text for input */
+  border: 1px solid #555;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 300px;
 }
 
-label {
-  font-weight: bold;
+input:focus {
+  outline: none;
+  border-color: #888;
 }
 
+select {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #555;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+select:focus {
+  outline: none;
+  border-color: #888;
+}
+
+p {
+  margin-top: 20px;
+  color: #b3b3b3; /* Slightly lighter color for paragraph text */
+}
+
+a {
+  color: #1db954; /* Green for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+small {
+  color: #b3b3b3;
+}
+
+/* Responsive logo size */
 @media (max-width: 600px) {
-  h1 {
-    font-size: 24px; /* Reduce title size on small screens */
-  }
-
-  input {
-    width: 90%; /* Take up more width on very small screens */
-    font-size: 14px; /* Adjust font size for smaller screens */
+  .app-logo {
+    width: 100px; /* Smaller size for mobile */
   }
 }
