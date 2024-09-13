@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sats-converter/static/css/main.1e7abe8b.css",
+    "main.js": "/sats-converter/static/js/main.efa39ccf.js",
+    "static/js/453.595031be.chunk.js": "/sats-converter/static/js/453.595031be.chunk.js",
+    "index.html": "/sats-converter/index.html",
+    "main.1e7abe8b.css.map": "/sats-converter/static/css/main.1e7abe8b.css.map",
+    "main.efa39ccf.js.map": "/sats-converter/static/js/main.efa39ccf.js.map",
+    "453.595031be.chunk.js.map": "/sats-converter/static/js/453.595031be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e7abe8b.css",
+    "static/js/main.efa39ccf.js"
+  ]
+}
