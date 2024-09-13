@@ -71,7 +71,7 @@ function App() {
 
   return (
     <div className="App">
-      <img src="/logo512.png" alt="SATS Converter Logo" className="app-logo" />
+      <img src={`${process.env.PUBLIC_URL}/logo512.png`} alt="SATS Converter Logo" className="app-logo" />
       <h1>Currency to SATS Converter</h1>
 
       {/* Currency Selector */}
